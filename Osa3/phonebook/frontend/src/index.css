@@ -1,0 +1,99 @@
+.App {
+  background-color:#bbd4d1;
+  color: #839494;
+  font-style: italic;
+  text-align: center;
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app > * {
+ flex: 1 1 auto;
+}
+
+
+.sub {
+background-color: #bbd4d1;
+border-color: #bbc2d4;
+color:#839494;
+}
+
+.search {
+padding: 10px;
+border: 2px solid  #bbc2d4;
+color: #bbc2d4;
+border-radius: 5px 0 0 5px;
+} 
+
+.message {
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+/*align-items: center;*/
+color: #839494;
+background: #bbc2d4;
+font-size: 20px;
+border-style: solid;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 10px;
+margin-left: 25em;
+margin-right: 25em;
+/*position: absolute;
+top: 25%;
+right: 25%;*/
+}
+
+.notification {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+background-color: #bbd4d1;
+color: #839494;
+display: flex;
+align-items: center;
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+text-align: center;
+max-width: 75rem;
+color:#839483;
+}
+
+.delete {
+border-style:hidden;
+border-color: #bbc2d4;
+background-color: #bbd4d1;
+color: #839494;
+}
+
+.delete:focus {
+color:powderblue;
+}
+
+/*
+
+.search {
+padding: 10px;
+border: 2px solid  #bbc2d4;
+// border-style:ridge;
+color: #bbc2d4;
+border-radius: 5px 0 0 5px;
+// outline: none;
+} 
+
+
+
+#bbd4d1
+#839494
+#bbc2d4
+#bbc2d4
+#839483
+*/
