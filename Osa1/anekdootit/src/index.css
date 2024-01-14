@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: darkkhaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  max-width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: darkkhaki;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  font-size: 16px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .App {
+    font-size: 14px;
+  }
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.butt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+}
+button:hover {
+  border-color: greenyellow;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: black;
+    background-color: whitesmoke;
+  }
+  a:hover {
+    color: greenyellow;
+  }
+  button {
+    background-color: darkkhaki;
+    border-color: greenyellow;
+  }
+}
