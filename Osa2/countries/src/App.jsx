@@ -107,7 +107,7 @@ return (
 export default App;*/
 
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 import WeatherApp from './WeatherApp';
 import CountryInfo from './CountryInfo'; // Import the CountryInfo component
