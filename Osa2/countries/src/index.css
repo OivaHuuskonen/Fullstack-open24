@@ -4,6 +4,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: bisque;
   display: flex;
+  /*flex-direction: column;*/
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -44,6 +45,12 @@ body {
   width: 100px;
   height: 100px;
 }
+/*alla copy-paste
+@media screen and (min-width: 415px){
+  .site-container {
+    flex-direction: row;
+  }
+}*/
 
 /*a {
   font-weight: 500;
